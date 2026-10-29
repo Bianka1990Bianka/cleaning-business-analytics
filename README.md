@@ -47,6 +47,11 @@ Using a synthetic business dataset, I developed a SQLite database, performed SQL
 
 ## Power BI Dashboard
 
+**[Download the Interactive Power BI Dashboard](dashboard/cleaning_business_analytics.pbix)**
+
+Open the downloaded file in Power BI Desktop to explore the three report pages, filters, and DAX measures.
+
+
 ### Executive Overview
 
 ![Executive Overview](reports/executive_overview.png)
