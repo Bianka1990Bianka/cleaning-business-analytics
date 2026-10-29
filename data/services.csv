@@ -1,0 +1,5 @@
+service_id,service_name,base_price,estimated_hours
+301,Standard Cleaning,150,3.0
+302,Deep Cleaning,275,5.0
+303,Move-In/Move-Out,350,6.0
+304,Recurring Maintenance,120,2.5
