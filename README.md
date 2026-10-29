@@ -70,6 +70,53 @@ Open the downloaded file in Power BI Desktop to explore the three report pages, 
 
 ## Project Structure
 
+## How to Run This Project
+
+### Requirements
+
+- Python 3
+- Power BI Desktop
+- SQLite (accessed through Python)
+
+### Setup
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Bianka1990Bianka/cleaning-business-analytics.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd cleaning-business-analytics
+   ```
+
+3. Install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Explore the Analysis
+
+- Open `notebooks/01_data_quality.ipynb` to review the data quality analysis.
+- Explore the SQL queries in the `sql/` folder.
+- Review the provided SQLite database in `data/cleaning_business.db`.
+- View the customer retention heatmap in `reports/`.
+
+### Explore the Dashboard
+
+1. Open Power BI Desktop.
+2. Open `dashboard/cleaning_business_analytics.pbix`.
+3. Explore the three report pages:
+   - Executive Overview
+   - Customer Analytics
+   - Financial Performance
+
+**Note:** The repository includes synthetic datasets and a prebuilt SQLite database, so generating new data is not required to explore the existing analysis.
+
+
 - `data/` — Synthetic datasets and SQLite database
 - `dashboard/` — Power BI dashboard file
 - `notebooks/` — Python analysis notebooks
